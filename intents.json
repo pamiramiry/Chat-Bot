@@ -1,0 +1,90 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Good morning",
+          "Good evening",
+          "Hi",
+          "whats up",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "Take care",
+          "Bye and nice talking to you",
+          "See you later",
+          "Have a nice day",
+          "Bye!"
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Sounds good","Thanks", "Thank you", "Alright thanks", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "Your welcome"]
+      },
+      {
+        "tag": "items",
+        "patterns": [
+          "What can I buy?",
+          "Which items do you have?",
+          "What kinds of items are there?",
+          "What do you sell?"
+        ],
+        "responses": [
+          "We sell pizza and wings",
+          "We have pizza and wings"
+        ]
+      },
+      {
+        "tag": "payments",
+        "patterns": [
+          "Do you take credit cards?",
+          "Do you accept Mastercard?",
+          "Can I pay with Paypal?",
+          "Are you cash only?"
+        ],
+        "responses": [
+          "We accept VISA, Mastercard and Cash",
+          "We accept most major credit cards, and Cash"
+        ]
+      },
+      {
+        "tag": "delivery",
+        "patterns": [
+          "How long does delivery take?",
+          "How long does shipping take?",
+          "When do I get my delivery?"
+        ],
+        "responses": [
+          "Delivery takes about 1 hour",
+          "approximately one hour"
+        ]
+      },
+      {
+        "tag": "hours",
+        "patterns": [
+          "How long you guys open for?",
+          "When does the store close",
+          "When does the store open ?",
+          "Are you guys open till midnight"
+        ],
+        "responses": [
+          "We open at 11 am and close at 11 pm",
+          "Hours of operation is between 11 am to 11 pm"
+        ]
+      }
+    ]
+  }

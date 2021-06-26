@@ -1,0 +1,6 @@
+pip~=21.1.2
+Python~=3.9.5
+numpy~=1.19.4
+tensorflow~=2.5.0
+tflearn~=0.5
+nltk~=3.6.2
